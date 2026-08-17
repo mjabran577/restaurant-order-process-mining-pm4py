@@ -54,17 +54,14 @@ The large variability around the preparation-to-cooking transition is important:
 
 ## Process models
 
-### Petri net
-![Petri net](figures/petri_net.png)
+The analysis generates four process views when the script is run with the event log and Graphviz available:
 
-### BPMN model
-![BPMN model](figures/bpmn_model.png)
+- Petri net
+- BPMN process model
+- Frequency directly-follows graph
+- Performance directly-follows graph
 
-### Frequency directly-follows graph
-![Frequency DFG](figures/dfg_frequency.png)
-
-### Performance directly-follows graph
-![Performance DFG](figures/dfg_performance.png)
+These models are also discussed in the original notebook and the portfolio-safe executive summary.
 
 ## Why this project is useful in a technical portfolio
 
@@ -92,17 +89,12 @@ The same analytical mindset is useful in sustainability and Ecodesign workflows 
 ├── LICENSE
 ├── data/
 │   └── README.md
-├── figures/
-│   ├── petri_net.png
-│   ├── bpmn_model.png
-│   ├── dfg_frequency.png
-│   └── dfg_performance.png
 ├── notebooks/
 │   └── Process_Mining.ipynb
 ├── outputs/
 │   └── README.md
 ├── report/
-│   └── Process_Mining_Executive_Summary.docx
+│   └── Executive_Summary.md
 ├── tests/
 │   └── test_process_mining_analysis.py
 └── .github/workflows/
@@ -146,10 +138,10 @@ Important analytical choices are explicit parameters:
 
 The script also records a machine-readable summary so assumptions and major results can be checked later.
 
-## Original notebook and report
+## Notebook and executive summary
 
-- [`notebooks/Process_Mining.ipynb`](notebooks/Process_Mining.ipynb) — original notebook containing the PM4Py analysis and visual outputs.
-- [`report/Process_Mining_Executive_Summary.docx`](report/Process_Mining_Executive_Summary.docx) — original group-project executive summary.
+- [`notebooks/Process_Mining.ipynb`](notebooks/Process_Mining.ipynb) — cleaned notebook containing the PM4Py analysis workflow.
+- [`report/Executive_Summary.md`](report/Executive_Summary.md) — portfolio-safe executive summary based on the original group-project report.
 
 ## Tools
 
